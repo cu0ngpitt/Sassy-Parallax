@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  color: #2e3738;
+}
+
+#header {
+  background: url("http://www.scalsys.com/wallpapers/heroes-of-the-storm-wallpaper-1080p/heroes-of-the-storm-wallpaper-1080p_212269.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#footer {
+  background: url("https://media.alienwarearena.com/media/heroes-of-the-storm-wallpaper-6.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#footer,
+#header {
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#footer h1,
+#header h1 {
+  text-transform: uppercase;
+  font-family: "Bitter", serif;
+  letter-spacing: 0.06em;
+  font-size: 120px;
+  color: #FFF;
+  opacity: 0.7;
+  text-align: center;
+  transform: translateZ(-2px);
+}
+
+p {
+  width: 70%;
+  padding: 5%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+/*# sourceMappingURL=main.css.map */
